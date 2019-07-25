@@ -37,11 +37,9 @@ Reference the library from your module's build.gradle:
 ``` gradle
 dependencies {
     [...]
-    compile 'net.cachapa.expandablelayout:expandablelayout:[latest_version]'
+    implementation 'net.cachapa.expandablelayout:expandablelayout:[latest_version]'
 }
 ```
-
-Latest version: [ ![Download](https://api.bintray.com/packages/cachapa/maven/expandablelayout/images/download.svg) ](https://bintray.com/cachapa/maven/expandablelayout/_latestVersion)
 
 Add `ExpandableLayout` as a container to the layout or views you want to make expandable:
 
