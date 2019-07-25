@@ -32,12 +32,21 @@ ExpandableLayout supports animating:
 
 ### Usage
 
+Add JitPack repository in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
 Reference the library from your module's build.gradle:
 
 ``` gradle
 dependencies {
     [...]
-    implementation 'net.cachapa.expandablelayout:expandablelayout:[latest_version]'
+    implementation 'com.github.lithiumsr:ExpandableLayout:2.9.5''
 }
 ```
 
